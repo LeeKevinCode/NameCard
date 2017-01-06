@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="krlighting.com.namecard.Main">
+
+    <TextView
+        android:id="@+id/main_create_new"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#77ffffff"
+        android:gravity="center"
+        android:text="Creat New Card"
+        android:textColor="#EE000000"
+        android:textSize="43sp"
+        android:textStyle="bold"
+        android:onClick="listTemplate" />
+
+    <TextView
+        android:id="@+id/main_list_all"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#77000000"
+        android:gravity="center"
+        android:text="Edit Existing Card"
+        android:textColor="#EEffffff"
+        android:textSize="43sp"
+        android:textStyle="bold"
+        android:onClick="listTemplate"/>
+</LinearLayout>
